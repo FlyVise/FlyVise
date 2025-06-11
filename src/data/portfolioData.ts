@@ -29,15 +29,15 @@ export const portfolioData: PortfolioProject[] = [
   },
   {
     id: 2,
-    title: 'Fitness Tracking App',
-    description: 'A comprehensive fitness app with workout tracking, nutrition planning, and social features to help users achieve their health goals.',
+    title: 'Second Hand Bazaar',
+    description: 'A comprehensive marketplace app for buying and selling second-hand items with user ratings, secure messaging, and location-based search features.',
     category: 'mobile',
     categoryLabel: 'Mobile App',
     image: 'https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['React Native', 'Firebase', 'Redux', 'TypeScript'],
     links: [
-      { type: 'app-store', label: 'App Store', url: 'https://example.com/fitness-app' },
-      { type: 'play-store', label: 'Play Store', url: 'https://example.com/fitness-play' },
+      { type: 'app-store', label: 'App Store', url: 'https://example.com/secondhand-app' },
+      { type: 'play-store', label: 'Play Store', url: 'https://example.com/secondhand-play' },
     ],
   },
   {

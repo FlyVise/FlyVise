@@ -1,17 +1,17 @@
 {
-  "name": "creative-agency-website",
+  "name": "FlyVise",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "description": "A modern creative agency website built with React, TypeScript, and Vite",
   "keywords": ["creative agency", "web design", "portfolio", "react", "typescript", "vite"],
-  "author": "Your Name",
+  "author": "FlyVise",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/creative-agency-website.git"
+    "url": "https://github.com/FlyVise/FlyVise.git"
   },
-  "homepage": "https://yourusername.github.io/creative-agency-website",
+  "homepage": "https://FlyVise.github.io/FlyVise",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

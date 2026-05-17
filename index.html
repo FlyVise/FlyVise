@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLYVISE — Design. Develop. Dominate.</title>
+  <meta name="description" content="FLYVISE is a 360° marketing agency specialising in Web Design, App Development, Branding, SEO, and Paid Media. From branding to backend — we do it all.">
+  <meta name="keywords" content="web design, app development, branding, SEO, digital marketing, FLYVISE">
+  <meta name="author" content="FLYVISE">
+  <meta property="og:title" content="FLYVISE — Design. Develop. Dominate.">
+  <meta property="og:description" content="From branding to backend — Flyvise does it all. We turn ideas into visuals, visuals into products, and products into market leaders.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://flyvise.in">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo">
+    <span class="logo-dot"></span>
+    FLYVISE
+  </a>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#process">About</a></li>
+  </ul>
+  <a href="#" onclick="showContactPage(); return false;" class="nav-cta">Get In Touch</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+
+  <div class="hero-left">
+    <h1 class="hero-h1">
+      Design.<br>
+      <em>Develop.</em><br>
+      Dominate.
+    </h1>
+    <p class="hero-sub">
+      From branding to backend — Flyvise does it all. We turn ideas into visuals, visuals into products, and products into market leaders.
+    </p>
+    <div class="hero-actions">
+      <a href="#" onclick="showContactPage(); return false;" class="btn-primary">Get In Touch</a>
+    </div>
+  </div>
+
+
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <div class="marquee-item">SEO <span>✦</span></div>
+    <div class="marquee-item">GOOGLE ADS <span>✦</span></div>
+    <div class="marquee-item">WEB DESIGN <span>✦</span></div>
+    <div class="marquee-item">SOCIAL MEDIA <span>✦</span></div>
+    <div class="marquee-item">EMAIL MARKETING <span>✦</span></div>
+    <div class="marquee-item">CONTENT STRATEGY <span>✦</span></div>
+    <div class="marquee-item">CRO <span>✦</span></div>
+    <div class="marquee-item">ANALYTICS <span>✦</span></div>
+    <div class="marquee-item">SEO <span>✦</span></div>
+    <div class="marquee-item">GOOGLE ADS <span>✦</span></div>
+    <div class="marquee-item">WEB DESIGN <span>✦</span></div>
+    <div class="marquee-item">SOCIAL MEDIA <span>✦</span></div>
+    <div class="marquee-item">EMAIL MARKETING <span>✦</span></div>
+    <div class="marquee-item">CONTENT STRATEGY <span>✦</span></div>
+    <div class="marquee-item">CRO <span>✦</span></div>
+    <div class="marquee-item">ANALYTICS <span>✦</span></div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="services-header">
+    <div>
+      <div class="section-tag">What We Do</div>
+      <h2 class="section-h2">Our Services —<br><em>Tailored for Growth</em></h2>
+    </div>
+    <a href="#" onclick="showContactPage(); return false;" class="btn-primary">Get In Touch</a>
+  </div>
+
+  <div class="services-list reveal">
+
+    <!-- 01 — Expandable -->
+    <div class="service-row service-expandable" onclick="toggleService(this)" data-id="s1">
+      <div class="service-num">01</div>
+      <div class="service-name">Web Design & Development</div>
+      <div class="service-tags">
+        <span class="tag">UX/UI</span>
+        <span class="tag">Conversion</span>
+      </div>
+      <div class="service-arrow service-chevron">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#c8f135" stroke-width="1.8" stroke-linecap="round"><polyline points="4,7 9,12 14,7"/></svg>
+      </div>
+    </div>
+    <div class="service-dropdown" id="s1">
+      <div class="service-dropdown-inner">
+        <div class="sd-label">Services Included</div>
+        <div class="sd-grid">
+        <div class="sd-item"><span class="sd-dot"></span>Website Design</div>
+        <div class="sd-item"><span class="sd-dot"></span>Website Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>UI / UX Design</div>
+        <div class="sd-item"><span class="sd-dot"></span>Corporate Website Design</div>
+        <div class="sd-item"><span class="sd-dot"></span>E-commerce Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>Shopify Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>WordPress Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>Website Maintenance & Hosting</div>
+        <div class="sd-item"><span class="sd-dot"></span>Custom CMS Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>Sitemaps & Wireframes</div>
+        <div class="sd-item"><span class="sd-dot"></span>Website Content Writing</div>
+      </div>
+      </div>
+    </div>
+
+    <!-- 02 — Expandable -->
+    <div class="service-row service-expandable" onclick="toggleService(this)" data-id="s2">
+      <div class="service-num">02</div>
+      <div class="service-name">Application Design & Development</div>
+      <div class="service-tags">
+        <span class="tag">iOS</span>
+        <span class="tag">Android</span>
+      </div>
+      <div class="service-arrow service-chevron">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#c8f135" stroke-width="1.8" stroke-linecap="round"><polyline points="4,7 9,12 14,7"/></svg>
+      </div>
+    </div>
+    <div class="service-dropdown" id="s2">
+      <div class="service-dropdown-inner">
+        <div class="sd-label">Services Included</div>
+        <div class="sd-grid">
+        <div class="sd-item"><span class="sd-dot"></span>Web App Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>Mobile App Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>No Code Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>Application Maintenance</div>
+        <div class="sd-item"><span class="sd-dot"></span>Cloud Hosting Services</div>
+        <div class="sd-item"><span class="sd-dot"></span>Custom CRM / CMS Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>API Integration</div>
+        <div class="sd-item"><span class="sd-dot"></span>CRM Integration</div>
+        <div class="sd-item"><span class="sd-dot"></span>React Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>Laravel / PHP Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>Node.js Development</div>
+      </div>
+      </div>
+    </div>
+
+    <!-- 03 — Expandable -->
+    <div class="service-row service-expandable" onclick="toggleService(this)" data-id="s3">
+      <div class="service-num">03</div>
+      <div class="service-name">Design & Branding</div>
+      <div class="service-tags">
+        <span class="tag">Identity</span>
+        <span class="tag">Creative</span>
+      </div>
+      <div class="service-arrow service-chevron">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#c8f135" stroke-width="1.8" stroke-linecap="round"><polyline points="4,7 9,12 14,7"/></svg>
+      </div>
+    </div>
+    <div class="service-dropdown" id="s3">
+      <div class="service-dropdown-inner">
+        <div class="sd-label">Services Included</div>
+        <div class="sd-grid">
+        <div class="sd-item"><span class="sd-dot"></span>Brand Development</div>
+        <div class="sd-item"><span class="sd-dot"></span>Logo Design</div>
+        <div class="sd-item"><span class="sd-dot"></span>Brand Guidelines</div>
+        <div class="sd-item"><span class="sd-dot"></span>Corporate Reports</div>
+        <div class="sd-item"><span class="sd-dot"></span>Presentation Design</div>
+        <div class="sd-item"><span class="sd-dot"></span>Digital Design</div>
+        <div class="sd-item"><span class="sd-dot"></span>Print Design</div>
+        <div class="sd-item"><span class="sd-dot"></span>Product Design</div>
+        <div class="sd-item"><span class="sd-dot"></span>Packaging Design</div>
+      </div>
+      </div>
+    </div>
+
+    <!-- 04 — Static -->
+    <a href="#" class="service-row">
+      <div class="service-num">04</div>
+      <div class="service-name">Search Engine Optimisation</div>
+      <div class="service-tags">
+        <span class="tag">Technical</span>
+        <span class="tag">On-Page</span>
+      </div>
+      <div class="service-arrow">→</div>
+    </a>
+
+    <!-- 05 — Static -->
+    <a href="#" class="service-row">
+      <div class="service-num">05</div>
+      <div class="service-name">Google & Meta Ads</div>
+      <div class="service-tags">
+        <span class="tag">PPC</span>
+        <span class="tag">Retargeting</span>
+      </div>
+      <div class="service-arrow">→</div>
+    </a>
+
+    <!-- 06 — Static -->
+    <a href="#" class="service-row">
+      <div class="service-num">06</div>
+      <div class="service-name">Social Media Marketing</div>
+      <div class="service-tags">
+        <span class="tag">Organic</span>
+        <span class="tag">Paid</span>
+      </div>
+      <div class="service-arrow">→</div>
+    </a>
+
+    <!-- 07 — Static -->
+    <a href="#" class="service-row">
+      <div class="service-num">07</div>
+      <div class="service-name">Content & Email Strategy</div>
+      <div class="service-tags">
+        <span class="tag">SEO Content</span>
+        <span class="tag">Automation</span>
+      </div>
+      <div class="service-arrow">→</div>
+    </a>
+
+    <!-- 08 — Static -->
+    <a href="#" class="service-row">
+      <div class="service-num">08</div>
+      <div class="service-name">Analytics & CRO</div>
+      <div class="service-tags">
+        <span class="tag">Data</span>
+        <span class="tag">Testing</span>
+      </div>
+      <div class="service-arrow">→</div>
+    </a>
+
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process-section" id="process">
+  <div class="section-tag">How We Work</div>
+  <h2 class="section-h2">Our <em>Process</em></h2>
+
+  <div class="process-steps reveal" style="grid-template-columns: repeat(4,1fr);">
+    <div class="process-step">
+      <div class="process-step-num">01</div>
+      <div class="process-step-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c8f135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/><line x1="11" y1="8" x2="11" y2="11"/><line x1="11" y1="11" x2="13" y2="13"/></svg>
+      </div>
+      <div class="process-step-title">Discovery</div>
+      <p class="process-step-text">We dive deep into your business, goals, and challenges to understand what success looks like.</p>
+    </div>
+    <div class="process-step">
+      <div class="process-step-num">02</div>
+      <div class="process-step-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c8f135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3,18 L8,12 L13,15 L18,8"/><polyline points="14,8 18,8 18,12"/><line x1="3" y1="21" x2="21" y2="21"/></svg>
+      </div>
+      <div class="process-step-title">Strategy</div>
+      <p class="process-step-text">We craft a comprehensive, data-driven marketing strategy tailored to your unique needs.</p>
+    </div>
+    <div class="process-step">
+      <div class="process-step-num">03</div>
+      <div class="process-step-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c8f135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13,2 3,14 12,14 11,22 21,10 12,10"/></svg>
+      </div>
+      <div class="process-step-title">Execution</div>
+      <p class="process-step-text">Our team brings the strategy to life with precision, creativity, and attention to detail.</p>
+    </div>
+    <div class="process-step" style="border-right:none;">
+      <div class="process-step-num">04</div>
+      <div class="process-step-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c8f135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="14" width="4" height="7"/><rect x="10" y="9" width="4" height="12"/><rect x="17" y="4" width="4" height="17"/><polyline points="4,10 10,6 14,9 20,4"/></svg>
+      </div>
+      <div class="process-step-title">Optimization</div>
+      <p class="process-step-text">We continuously monitor, test, and refine to maximize your results and ROI.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="contact">
+  <div class="cta-inner">
+    <div>
+      <h2 class="cta-h2">We believe that great<br>things happen when<br><em>we work together.</em></h2>
+    </div>
+    <a href="#" onclick="showContactPage(); return false;" class="btn-dark">Get In Touch →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+
+    <!-- LEFT: Contact -->
+    <div class="footer-contact">
+      <div class="footer-question">Have a question?</div>
+      <a href="mailto:letschat@flyvise.in" class="footer-email">letschat@flyvise.in</a>
+
+      <div class="footer-question" style="margin-top:32px;">Speak to someone?</div>
+      <a href="tel:+919953532373" class="footer-phone">+91 995 353 2373</a>
+
+      <div class="footer-brand-mark">FLYVISE</div>
+    </div>
+
+    <!-- RIGHT: Nav columns -->
+    <div class="footer-cols">
+
+      <div class="footer-col">
+        <div class="footer-col-head">Go to</div>
+        <ul class="footer-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#process">About</a></li>
+          <li><a href="#" onclick="showContactPage(); return false;">Connect</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-head">Follow us</div>
+        <ul class="footer-nav">
+          <li><a href="#">X</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Behance</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-col-head">Legal</div>
+        <ul class="footer-nav">
+          <li><a href="#" onclick="showLegal('privacy'); return false;">Privacy Policy</a></li>
+          <li><a href="#" onclick="showLegal('terms'); return false;">Terms of Use</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="footer-bar">
+    <span>© 2026 FLYVISE. All rights reserved.</span>
+  </div>
+</footer>
+
+
+<div id="legal-overlay">
+  <nav class="legal-nav">
+    <a href="#" class="logo">
+      <span class="logo-dot"></span>
+      FLYVISE
+    </a>
+    <span id="legal-title" class="legal-nav-title"></span>
+    <button class="legal-close" onclick="hideLegal()">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="2" y1="2" x2="14" y2="14"/><line x1="14" y1="2" x2="2" y2="14"/></svg>
+      Close
+    </button>
+  </nav>
+
+  <!-- PRIVACY POLICY -->
+  <div class="legal-body" id="legal-privacy">
+    <h2>Privacy Policy</h2>
+    <span class="legal-date">Effective Date: 2026-05-01</span>
+
+    <p><b>1. Introduction</b></p>
+    <p>Welcome to <b>FlyVise</b>. FlyVise ("us", "we", or "our") operates <b>flyvise.in</b> (hereinafter referred to as <b>"Service"</b>). Our Privacy Policy governs your visit to flyvise.in, and explains how we collect, safeguard and disclose information that results from your use of our Service. We use your data to provide and improve Service. By using Service, you agree to the collection and use of information in accordance with this policy.</p>
+
+    <p><b>2. Definitions</b></p>
+    <p><b>SERVICE</b> means the flyvise.in website operated by FlyVise.</p>
+    <p><b>PERSONAL DATA</b> means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).</p>
+    <p><b>USAGE DATA</b> is data collected automatically either generated by the use of Service or from Service infrastructure itself (for example, the duration of a page visit).</p>
+    <p><b>COOKIES</b> are small files stored on your device (computer or mobile device).</p>
+    <p><b>DATA CONTROLLER</b> means a natural or legal person who determines the purposes for which and the manner in which any personal data are, or are to be, processed. For the purpose of this Privacy Policy, we are a Data Controller of your data.</p>
+    <p><b>DATA PROCESSORS (OR SERVICE PROVIDERS)</b> means any natural or legal person who processes the data on behalf of the Data Controller.</p>
+    <p><b>THE USER</b> is the individual using our Service.</p>
+
+    <p><b>3. Information Collection and Use</b></p>
+    <p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+
+    <p><b>4. Types of Data Collected</b></p>
+    <p><b>Personal Data:</b> While using our Service, we may ask you to provide personally identifiable information including email address, first name and last name, phone number, address, country, state, province, ZIP/postal code, city, and cookies and usage data.</p>
+    <p><b>Usage Data:</b> We may also collect information that your browser sends whenever you visit our Service, including your IP address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, and unique device identifiers.</p>
+    <p><b>Tracking Cookies Data:</b> We use cookies and similar tracking technologies to track the activity on our Service. Examples include Session Cookies, Preference Cookies, Security Cookies, and Advertising Cookies.</p>
+
+    <p><b>5. Use of Data</b></p>
+    <p>FlyVise uses the collected data to provide and maintain our Service; notify you about changes; provide customer support; gather analysis to improve our Service; monitor usage; detect, prevent and address technical issues; and to fulfil any other purpose for which you provide it.</p>
+
+    <p><b>6. Retention of Data</b></p>
+    <p>We will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our legal agreements and policies.</p>
+
+    <p><b>7. Transfer of Data</b></p>
+    <p>Your information, including Personal Data, may be transferred to and maintained on computers located outside of your state, province, country or other governmental jurisdiction. If you are located outside India and choose to provide information to us, please note that we transfer the data to India and process it there.</p>
+
+    <p><b>8. Disclosure of Data</b></p>
+    <p>We may disclose personal information under certain circumstances including disclosure for law enforcement, business transactions (mergers, acquisitions), to subsidiaries and affiliates, to contractors and service providers, and to protect the rights, property, or safety of the Company.</p>
+
+    <p><b>9. Security of Data</b></p>
+    <p>The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+
+    <p><b>10. Your Data Protection Rights Under GDPR</b></p>
+    <p>If you are a resident of the EU/EEA, you have certain data protection rights. You have the right to access, update, or delete information we hold about you; the right of rectification; the right to object; the right of restriction; the right to data portability; and the right to withdraw consent. Please contact us at <b>contact@flyvise.in</b> to exercise these rights.</p>
+
+    <p><b>11. Your Rights Under CalOPPA</b></p>
+    <p>According to CalOPPA, users can visit our site anonymously, our Privacy Policy is clearly accessible, users are notified of privacy policy changes, and users can change their personal information by emailing us at <b>contact@flyvise.in</b>.</p>
+
+    <p><b>12. Your Rights Under CCPA</b></p>
+    <p>If you are a California resident, you are entitled to learn what data we collect about you, ask to delete your data and not to sell it. We don't sell or rent your personal information to any third parties. To exercise your California data protection rights, please send your request by email: <b>contact@flyvise.in</b>.</p>
+
+    <p><b>13. Service Providers</b></p>
+    <p>We may employ third party companies and individuals to facilitate our Service. These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+
+    <p><b>14. Analytics</b></p>
+    <p>We may use third-party Service Providers to monitor and analyze the use of our Service.</p>
+
+    <p><b>15. Behavioural Remarketing</b></p>
+    <p>We may use remarketing services to advertise on third party websites to you after you visited our Service. We and our third-party vendors use cookies to inform, optimise and serve ads based on your past visits to our Service.</p>
+
+    <p><b>16. Links to Other Sites</b></p>
+    <p>Our Service may contain links to other sites that are not operated by us. We strongly advise you to review the Privacy Policy of every site you visit. We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+
+    <p><b>17. Children's Privacy</b></p>
+    <p>Our Services are not intended for use by children under the age of 18. We do not knowingly collect personally identifiable information from Children under 18. If you become aware that a Child has provided us with Personal Data, please contact us.</p>
+
+    <p><b>18. Changes to This Privacy Policy</b></p>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and we will let you know via email and/or a prominent notice on our Service prior to the change becoming effective.</p>
+
+    <p><b>19. Contact Us</b></p>
+    <p>If you have any questions about this Privacy Policy, please contact us by email: <b>contact@flyvise.in</b>.</p>
+  </div>
+
+  <!-- TERMS & CONDITIONS -->
+  <div class="legal-body" id="legal-terms">
+    <h2>Terms & Conditions</h2>
+    <span class="legal-date">Last Updated: 2026-05-01</span>
+
+    <p><b>1. Introduction</b></p>
+    <p>Welcome to <b>FlyVise</b> ("Company", "we", "our", "us"). These Terms of Service ("Terms") govern your use of our website located at <b>flyvise.in</b> operated by FlyVise. Our Privacy Policy also governs your use of our Service. Your agreement with us includes these Terms and our Privacy Policy. If you do not agree with Agreements, you may not use the Service.</p>
+
+    <p><b>2. Communications</b></p>
+    <p>By using our Service, you agree to subscribe to newsletters, marketing or promotional materials and other information we may send. You may opt out of receiving any, or all, of these communications by following the unsubscribe link or by emailing <b>contact@flyvise.in</b>.</p>
+
+    <p><b>3. Contests, Sweepstakes and Promotions</b></p>
+    <p>Any contests, sweepstakes or other promotions made available through Service may be governed by rules separate from these Terms. If you participate in any Promotions, please review the applicable rules as well as our Privacy Policy.</p>
+
+    <p><b>4. Content</b></p>
+    <p>Content found on or through this Service are the property of FlyVise or used with permission. You may not distribute, modify, transmit, reuse, download, repost, copy, or use said Content, whether in whole or in part, for commercial purposes or personal gain, without express advance written permission from us.</p>
+
+    <p><b>5. Prohibited Uses</b></p>
+    <p>You may use Service only for lawful purposes and in accordance with Terms. You agree not to use Service in any way that violates applicable law; to exploit or harm minors; to transmit spam or unsolicited advertising; to impersonate the Company or others; to infringe upon the rights of others; or to engage in any conduct that restricts or inhibits anyone's use of Service.</p>
+
+    <p><b>6. Analytics</b></p>
+    <p>We may use third-party Service Providers to monitor and analyze the use of our Service.</p>
+
+    <p><b>7. No Use By Minors</b></p>
+    <p>Service is intended only for access and use by individuals at least eighteen (18) years old. By accessing or using Service, you warrant that you are at least eighteen (18) years of age. If you are not at least eighteen (18) years old, you are prohibited from both the access and usage of Service.</p>
+
+    <p><b>8. Intellectual Property</b></p>
+    <p>Service and its original content, features and functionality are and will remain the exclusive property of FlyVise and its licensors. Service is protected by copyright, trademark, and other laws. Our trademarks may not be used in connection with any product or service without the prior written consent of FlyVise.</p>
+
+    <p><b>9. Copyright Policy</b></p>
+    <p>We respect the intellectual property rights of others. It is our policy to respond to any claim that Content posted on Service infringes on the copyright or other intellectual property rights of any person or entity. Please submit copyright claims via email to <b>contact@flyvise.in</b> with the subject line: "Copyright Infringement".</p>
+
+    <p><b>10. DMCA Notice and Procedure</b></p>
+    <p>You may submit a notification pursuant to the Digital Millennium Copyright Act (DMCA) by providing our Copyright Agent with: an electronic or physical signature of the authorized person; a description of the copyrighted work; identification of the URL where the infringing material is located; your contact details; a good faith belief statement; and a statement made under penalty of perjury. Contact: <b>contact@flyvise.in</b>.</p>
+
+    <p><b>11. Error Reporting and Feedback</b></p>
+    <p>You may provide us directly at <b>contact@flyvise.in</b> or via third party sites with information and feedback concerning errors, suggestions for improvements, ideas, problems, complaints, and other matters related to our Service. Any such feedback becomes the property of the Company.</p>
+
+    <p><b>12. Links To Other Web Sites</b></p>
+    <p>Our Service may contain links to third party websites or services that are not owned or controlled by FlyVise. FlyVise has no control over, and assumes no responsibility for the content, privacy policies, or practices of any third party web sites or services. We strongly advise you to read the Terms of Service and Privacy Policies of any third party sites you visit.</p>
+
+    <p><b>13. Disclaimer Of Warranty</b></p>
+    <p>THESE SERVICES ARE PROVIDED BY COMPANY ON AN "AS IS" AND "AS AVAILABLE" BASIS. COMPANY MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THEIR SERVICES. YOU EXPRESSLY AGREE THAT YOUR USE OF THESE SERVICES IS AT YOUR SOLE RISK.</p>
+
+    <p><b>14. Limitation Of Liability</b></p>
+    <p>EXCEPT AS PROHIBITED BY LAW, YOU WILL HOLD US AND OUR OFFICERS, DIRECTORS, EMPLOYEES, AND AGENTS HARMLESS FOR ANY INDIRECT, PUNITIVE, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGE, HOWEVER IT ARISES. IF THERE IS LIABILITY FOUND ON THE PART OF COMPANY, IT WILL BE LIMITED TO THE AMOUNT PAID FOR THE PRODUCTS AND/OR SERVICES.</p>
+
+    <p><b>15. Termination</b></p>
+    <p>We may terminate or suspend your account and bar access to Service immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever, including a breach of Terms. All provisions of Terms which by their nature should survive termination shall survive termination.</p>
+
+    <p><b>16. Governing Law</b></p>
+    <p>These Terms shall be governed and construed in accordance with the laws of India, without regard to its conflict of law provisions. Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights.</p>
+
+    <p><b>17. Changes To Service</b></p>
+    <p>We reserve the right to withdraw or amend our Service, and any service or material we provide via Service, in our sole discretion without notice. We will not be liable if for any reason all or any part of Service is unavailable at any time or for any period.</p>
+
+    <p><b>18. Amendments To Terms</b></p>
+    <p>We may amend Terms at any time by posting the amended terms on this site. Your continued use of the Platform following the posting of revised Terms means that you accept and agree to the changes.</p>
+
+    <p><b>19. Waiver And Severability</b></p>
+    <p>No waiver by Company of any term or condition set forth in Terms shall be deemed a further or continuing waiver of such term or condition. If any provision of Terms is held by a court to be invalid, illegal or unenforceable, such provision shall be eliminated to the minimum extent such that the remaining provisions of Terms will continue in full force and effect.</p>
+
+    <p><b>20. Acknowledgement</b></p>
+    <p>BY USING SERVICE OR OTHER SERVICES PROVIDED BY US, YOU ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS OF SERVICE AND AGREE TO BE BOUND BY THEM.</p>
+
+    <p><b>21. Contact Us</b></p>
+    <p>Please send your feedback, comments, requests for technical support by email: <b>contact@flyvise.in</b>.</p>
+  </div>
+</div>
+
+<!-- CONTACT PAGE OVERLAY -->
+  #contact-overlay {
+    position: fixed;
+    inset: 0;
+    background: var(--black);
+    z-index: 500;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(30px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  #contact-overlay.active {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+
+  .cp-nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 48px;
+    background: rgba(8,8,8,0.92);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--border);
+    z-index: 10;
+  }
+  .cp-back {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Syne', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    cursor: pointer;
+    pointer-events: all;
+    border: none;
+    background: none;
+    transition: color 0.2s;
+  }
+  .cp-back:hover { color: var(--white); }
+  .cp-back svg { width: 16px; height: 16px; }
+
+  .cp-close-btn {
+    width: 40px; height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: var(--text-muted);
+    cursor: pointer;
+    pointer-events: all;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+    position: relative;
+    z-index: 100;
+    flex-shrink: 0;
+  }
+  .cp-close-btn:hover {
+    background: rgba(200,241,53,0.1);
+    border-color: var(--acid);
+    color: var(--acid);
+  }
+
+  .cp-body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 48px 100px;
+  }
+
+  .cp-header {
+    margin-bottom: 64px;
+  }
+  .cp-header .section-tag { margin-bottom: 16px; }
+  .cp-header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(52px, 6vw, 92px);
+    line-height: 0.93;
+    letter-spacing: 1px;
+  }
+  .cp-header h1 em { font-style: normal; color: var(--acid); }
+
+  .cp-grid {
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 48px;
+    align-items: start;
+  }
+
+  /* FORM PANEL */
+  .cp-form-panel {
+    background: var(--grey);
+    border: 1px solid var(--border);
+    padding: 48px 44px;
+  }
+  .cp-form-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .cp-form-sub {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 36px;
+    line-height: 1.6;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 16px;
+  }
+  .form-row .form-group { margin-bottom: 0; }
+
+  .form-label {
+    font-family: 'Syne', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .form-label .req { color: var(--acid); }
+
+  .form-input, .form-select, .form-textarea {
+    background: var(--black);
+    border: 1px solid var(--border);
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 13px 16px;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.2s;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  .form-input::placeholder, .form-textarea::placeholder { color: rgba(255,255,255,0.2); }
+  .form-input:focus, .form-select:focus, .form-textarea:focus { border-color: var(--acid); }
+
+  .form-select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none'%3E%3Cpolyline points='2,4 6,8 10,4' stroke='%23888' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    cursor: none;
+  }
+  .form-select option { background: #1a1a1a; }
+
+  .form-textarea { resize: vertical; min-height: 130px; line-height: 1.6; }
+
+  .form-submit {
+    width: 100%;
+    background: var(--acid);
+    color: var(--black);
+    font-family: 'Syne', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 18px;
+    border: none;
+    cursor: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 8px;
+    transition: background 0.2s, transform 0.2s;
+  }
+  .form-submit:hover { background: var(--acid-dim); transform: translateY(-1px); }
+  .form-submit svg { width: 16px; height: 16px; }
+
+  .form-legal {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: center;
+    margin-top: 14px;
+    line-height: 1.5;
+  }
+  .form-legal a { color: var(--acid); text-decoration: none; }
+
+  /* RIGHT SIDEBAR */
+  .cp-sidebar { display: flex; flex-direction: column; gap: 16px; }
+
+  .cp-info-card {
+    background: var(--grey);
+    border: 1px solid var(--border);
+    padding: 28px;
+    transition: border-color 0.3s;
+  }
+  .cp-info-card:hover { border-color: rgba(200,241,53,0.2); }
+
+  .cp-info-icon {
+    width: 40px; height: 40px;
+    background: rgba(200,241,53,0.08);
+    border: 1px solid rgba(200,241,53,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+  }
+  .cp-info-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .cp-info-text {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+
+  .cp-hours-card {
+    background: var(--grey);
+    border: 1px solid var(--border);
+    padding: 28px;
+  }
+  .cp-hours-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .cp-hours-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+  }
+  .cp-hours-row:last-child { border-bottom: none; }
+  .cp-hours-day { color: var(--text-muted); }
+  .cp-hours-time { font-family: 'Syne', sans-serif; font-weight: 600; font-size: 12px; }
+  .cp-hours-closed { color: rgba(200,241,53,0.5); font-family: 'Syne', sans-serif; font-weight: 600; font-size: 12px; }
+
+  .cp-cta-card {
+    background: var(--acid);
+    padding: 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .cp-cta-card::before {
+    content: '';
+    position: absolute;
+    bottom: -20px; right: -20px;
+    width: 100px; height: 100px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 50%;
+  }
+  .cp-cta-card::after {
+    content: '';
+    position: absolute;
+    bottom: -40px; right: -40px;
+    width: 160px; height: 160px;
+    border: 1px solid rgba(0,0,0,0.07);
+    border-radius: 50%;
+  }
+  .cp-cta-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    color: var(--black);
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .cp-cta-text {
+    font-size: 13px;
+    color: rgba(0,0,0,0.6);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .cp-cta-btn {
+    display: block;
+    background: var(--black);
+    color: var(--acid);
+    font-family: 'Syne', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s;
+    position: relative;
+  }
+  .cp-cta-btn:hover { background: #111; }
+
+  @media (max-width: 900px) {
+    .cp-nav { padding: 18px 24px; }
+    .cp-body { padding: 48px 24px 72px; }
+    .cp-grid { grid-template-columns: 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+
+<div id="contact-overlay">
+  <nav class="cp-nav">
+    <a href="#" class="logo">
+      <span class="logo-dot"></span>
+      FLYVISE
+    </a>
+    <button class="cp-close-btn" onclick="hideContactPage()">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="2" y1="2" x2="14" y2="14"/><line x1="14" y1="2" x2="2" y2="14"/></svg>
+    </button>
+  </nav>
+
+  <div class="cp-body">
+    <div class="cp-header">
+      <div class="section-tag">Contact Us</div>
+      <h1>Let's <em>Talk</em><br>Growth.</h1>
+    </div>
+
+    <div class="cp-grid">
+      <!-- FORM -->
+      <div class="cp-form-panel">
+        <div class="cp-form-title">Send us a message</div>
+        <div class="cp-form-sub">Fill out the form below and we'll get back to you as soon as possible.</div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Full Name <span class="req">*</span></label>
+            <input type="text" class="form-input" placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address <span class="req">*</span></label>
+            <input type="email" class="form-input" placeholder="john@company.com">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Company Name</label>
+            <input type="text" class="form-input" placeholder="Your Company">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone Number</label>
+            <input type="tel" class="form-input" placeholder="+1 (555) 000-0000">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Service Interested In <span class="req">*</span></label>
+            <select class="form-select">
+              <option value="" disabled selected>Select a service</option>
+              <option>Web Design & Development</option>
+              <option>Application Design & Development</option>
+              <option>Search Engine Optimisation</option>
+              <option>Google & Meta Ads</option>
+              <option>Social Media Marketing</option>
+              <option>Content & Email Strategy</option>
+              <option>Analytics & CRO</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Monthly Budget</label>
+            <select class="form-select">
+              <option value="" disabled selected>Select budget range</option>
+              <option>Under $1,000</option>
+              <option>$1,000 – $3,000</option>
+              <option>$3,000 – $7,000</option>
+              <option>$7,000 – $15,000</option>
+              <option>$15,000+</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Tell us about your project <span class="req">*</span></label>
+          <textarea class="form-textarea" placeholder="Tell us about your goals, challenges, and what you're looking to achieve..."></textarea>
+        </div>
+
+        <button class="form-submit">
+          Send Message
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22,2 15,22 11,13 2,9"/></svg>
+        </button>
+        <p class="form-legal">By submitting this form, you agree to our <a href="#">privacy policy</a> and <a href="#">terms of service</a>.</p>
+      </div>
+
+      <!-- SIDEBAR -->
+      <div class="cp-sidebar">
+        <div class="cp-info-card">
+          <div class="cp-info-icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#c8f135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="7"/><polyline points="9,5 9,9 12,11"/></svg>
+          </div>
+          <div class="cp-info-title">Quick Response Time</div>
+          <div class="cp-info-text">We typically respond to all inquiries within 24 hours during business days. For urgent matters, give us a call directly.</div>
+        </div>
+
+        <div class="cp-info-card">
+          <div class="cp-info-icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#c8f135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15,10 C15,14 9,17 9,17 C9,17 3,14 3,10 L3,5 C5,5 9,3 9,3 C9,3 13,5 15,5 Z"/><polyline points="6,9 8,11 12,7"/></svg>
+          </div>
+          <div class="cp-info-title">Free Consultation</div>
+          <div class="cp-info-text">Every new inquiry includes a complimentary 30-minute consultation where we'll discuss your goals and explore potential strategies.</div>
+        </div>
+
+        <div class="cp-hours-card">
+          <div class="cp-hours-title">Office Hours</div>
+          <div class="cp-hours-row">
+            <span class="cp-hours-day">Monday – Friday</span>
+            <span class="cp-hours-time">9:00 AM – 6:00 PM</span>
+          </div>
+          <div class="cp-hours-row">
+            <span class="cp-hours-day">Saturday</span>
+            <span class="cp-hours-time">10:00 AM – 4:00 PM</span>
+          </div>
+          <div class="cp-hours-row">
+            <span class="cp-hours-day">Sunday</span>
+            <span class="cp-hours-closed">Closed</span>
+          </div>
+        </div>
+
+        <div class="cp-cta-card">
+          <div class="cp-cta-title">Ready to get started?</div>
+          <div class="cp-cta-text">Book a free strategy session with our team and discover how we can help you grow.</div>
+          <a href="tel:+15550000000" class="cp-cta-btn">Schedule a Call</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
